@@ -1,0 +1,34 @@
+.form__number {
+	align-items: center;
+	border-top: 1px solid rgb(235, 235, 235);
+	border-bottom: 1px solid rgb(235, 235, 235);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 0.5rem 0;
+	padding: 30px 0;
+}
+
+	.form__number-label {
+		color: #7b7b7b;
+		flex: 0 0 auto;
+		font-family: Arial;
+		font-size: 0.8rem;
+		font-weight: 600;
+		margin: 0;
+		padding-right: 8px;
+		text-align: right;
+		text-shadow: 1px 1px 2px rgba(183, 183, 183, 0.3);
+	}
+
+	.form__number-input {
+		flex: 0 0 auto;
+		height: 30px;
+		padding: 2px 5px;
+		width: 60px;
+	}
+
+	.form__number-input:focus {
+		border: 1px solid #95B7ED;
+		box-shadow: 0 0 0 2px #BDD4FA;
+	}

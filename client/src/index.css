@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Bebas;
+  src: url(fonts/Bebas/BebasNeue_Regular.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: Bebas, Arial;
+  justify-content: center;
+  height: 100vh;
+}
